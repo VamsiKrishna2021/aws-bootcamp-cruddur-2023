@@ -3,7 +3,7 @@
         "Notification": {
             "ComparisonOperator": "GREATER_THAN",
             "NotificationType": "ACTUAL",
-            "Threshold": 80,
+            "Threshold": 90,
             "ThresholdType": "PERCENTAGE"
         },
         "Subscribers": [
@@ -17,7 +17,21 @@
         "Notification": {
             "ComparisonOperator": "GREATER_THAN",
             "NotificationType": "ACTUAL",
-            "Threshold": 50,
+            "Threshold": 70,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "vamsimadhabattula@gmail.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    },
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 40,
             "ThresholdType": "PERCENTAGE"
         },
         "Subscribers": [
@@ -27,4 +41,4 @@
             }
         ]
     }
-]
+  ]
