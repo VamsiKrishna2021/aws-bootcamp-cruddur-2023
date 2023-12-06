@@ -3,7 +3,7 @@
         "Notification": {
             "ComparisonOperator": "GREATER_THAN",
             "NotificationType": "ACTUAL",
-            "Threshold": 50,
+            "Threshold": 80,
             "ThresholdType": "PERCENTAGE"
         },
         "Subscribers": [
@@ -12,12 +12,12 @@
                 "SubscriptionType": "EMAIL"
             }
         ]
-    }
+    },
     {
         "Notification": {
             "ComparisonOperator": "GREATER_THAN",
             "NotificationType": "ACTUAL",
-            "Threshold": 80,
+            "Threshold": 50,
             "ThresholdType": "PERCENTAGE"
         },
         "Subscribers": [
