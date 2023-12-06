@@ -33,7 +33,7 @@ We'll also run these commands indivually to perform the install manually
 
 ### Create a new User and Generate AWS Credentials
 
-- Go to (IAM Users Console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users) andrew create a new user
+- Go to (IAM Users Console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users) vamsi create a new user
 - `Enable console access` for the user
 - Create a new `Admin` Group and apply `AdministratorAccess`
 - Create the user and go find and click into the user
