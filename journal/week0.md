@@ -114,7 +114,7 @@ Check your email and confirm the subscription
 - We are just a json file because --metrics is is required for expressions and so its easier to us a JSON file.
 
 ```sh
-aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm_config.json
+aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm-config.json
 ```
 
 ## Create an AWS Budget
@@ -135,4 +135,3 @@ aws budgets create-budget \
     --account-id AccountID \
     --budget file://aws/json/budget.json \
     --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
-```
