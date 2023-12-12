@@ -354,8 +354,3 @@ To List the Records in above Music Table
 ```sh
 aws dynamodb scan --table-name Music --query "Items" --endpoint-url http://localhost:8000
 ```
-
-To connect to Postgres db from terminal, The password is the one configured on dockercompose.yml file.
-```sh
-psql -Upostgres --host localhost
-```
