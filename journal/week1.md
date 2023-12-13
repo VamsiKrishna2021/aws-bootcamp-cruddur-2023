@@ -362,11 +362,13 @@ psql -Upostgres --host localhost
 To list environment variables using grep command
 
 ```sh
-env | grep variable_name
+env | grep HONEY
 ```
 
 To look for the logs on containers open containers right click on the container you and select attach shell and use the grep command.
 
 ```sh
-env | grep variable_name
+env | grep OTEL
 ```
+
+Honeycombglitch -- https://honeycomb-whoami.glitch.me/trace
